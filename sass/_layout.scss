@@ -20,17 +20,23 @@
 
 .content {
 	display: flex;
-
 }
 
 .sidebar	{
 	background-color: var(--color-grey-dark-1);
 	flex: 0 0 18%; // To define a width for a flex item use 'flex-basis' NOT 'width' - flex: GROW SHRINK BASIS
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .hotel-view {
 	background-color: #fff;
-	background-color: cadetblue;
+
+
+	background-color: cadetblue; // TESTING PURPOSES ONLY
+	height: 80rem; // TESTING PURPOSES ONLY
 
 	flex: 1; // This tells the element (<main>) to grow as much as possible
 }
